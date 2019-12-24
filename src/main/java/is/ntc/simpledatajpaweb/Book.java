@@ -21,6 +21,13 @@ public class Book {
 		    this.year = year;
 	  }
 
+	  @Override
+	  public String toString() {
+	    return String.format(
+	        "Book[id=%d, name='%s', author='%s' , publisher='%s', year=%d]",
+	        id, name, author, publisher, year);
+	  }
+	  
 	public String getName() {
 		return name;
 	}

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: is.ntc.simpledatajpaweb.SimpledatajpawebApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.106 s - in is.ntc.simpledatajpaweb.SimpledatajpawebApplicationTests
