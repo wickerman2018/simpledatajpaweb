@@ -1,23 +1,17 @@
 package is.ntc.simpledatajpaweb;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class SimpledatajpawebApplication {
 
-	private static final Logger log = LoggerFactory.getLogger(SimpledatajpawebApplication.class);
-	
 	public static void main(String[] args) {
 		SpringApplication.run(SimpledatajpawebApplication.class, args);
 	}
 
 	
-	  @Bean
+/*	  @Bean
 	  public CommandLineRunner demo(BookRepository repository) {
 	    return (args) -> {
 	      // save a few customers
@@ -41,8 +35,8 @@ public class SimpledatajpawebApplication {
 	      log.info("");
 
 	      // fetch an individual book by ID
-	      Book book = repository.findById(2L);
-	      log.info("Book found with findById(2L):");
+	      Book book = repository.findById(1L);
+	      log.info("Book found with findById(1L):");
 	      log.info("--------------------------------");
 	      log.info(book.toString());
 	      log.info("");
@@ -50,5 +44,5 @@ public class SimpledatajpawebApplication {
 
 	      log.info("");
 	    };
-	  }
+	  }*/
 }
